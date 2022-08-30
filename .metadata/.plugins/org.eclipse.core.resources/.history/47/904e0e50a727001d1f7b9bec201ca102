@@ -1,0 +1,16 @@
+package com.helloworld.bsmgen.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.helloworld.helloworld.HelloworldApplication;
+
+@SpringBootApplication
+public class BsmGenMain {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BsmGenMain.class, args);
+
+	}
+
+}
