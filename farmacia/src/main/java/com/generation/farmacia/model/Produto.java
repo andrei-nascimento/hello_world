@@ -1,5 +1,6 @@
 package com.generation.farmacia.model;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
@@ -31,7 +32,6 @@ public class Produto {
 	@NotNull(message = "O campo descrição é obrigatório!")
 	private String descricao;
 	
-	@NotNull(message = "O campo preço é obrigatório!")
 	private float preco;
 	
 	@UpdateTimestamp
